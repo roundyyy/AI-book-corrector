@@ -95,7 +95,7 @@ class AICorrectorGUI:
         self.fix_grammar = tk.BooleanVar(value=True)
         self.fix_typos = tk.BooleanVar(value=True)
         self.fix_formatting = tk.BooleanVar(value=True)
-        self.chunk_size = tk.IntVar(value=30000)  # default 30k
+        self.chunk_size = tk.IntVar(value=5000)  # default 5k
         self.extra_instructions = tk.StringVar(value="")
 
         self.api_key_var = tk.StringVar(value="REPLACE_WITH_YOUR_ACTUAL_KEY")
