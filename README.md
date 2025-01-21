@@ -71,7 +71,7 @@ Or simply double-click `start.bat`
    - Choose output location
    - Select target language
    - Configure correction options
-   - Adjust chunk size if needed
+   - Adjust chunk size if needed (do not use more than 12k tokens per chunk)
    - Add any special instructions
 
 3. **Run Correction**
@@ -101,7 +101,7 @@ Or simply double-click `start.bat`
 - Only supports DOCX format
 - Requires active internet connection
 - Processing speed depends on API response time
-- Maximum chunk size of 128k tokens
+- Do not use more than 12k tokens chunk size as 16k is the output limit.
 
 ## Troubleshooting
 
